@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/FAQButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/faq"
+            android:layout_gravity="right"
+            />
+
+        <TextView
+            android:fontFamily="serif"
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Hola!BOOKWORM"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:fontFamily="serif-monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SIGN IN"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/download"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/UseremailID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="92dp"
+            app:passwordToggleEnabled="true"
+            tools:layout_editor_absoluteT="240dp">
+        <EditText
+            android:id="@+id/PasswordID"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:inputType="textPassword"
+            android:hint="Enter Password"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+        <CheckBox
+            android:layout_gravity="center"
+            android:id="@+id/rememberMeCheckBox"
+            android:text=" Remember Me "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ProgressBar
+            android:id="@+id/progressBarID"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/SignInButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/log_in"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/btnforgotpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Forgot Password"
+            android:gravity="center"
+            />
+        <TextView
+            android:fontFamily="serif-monospace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" No account yet!😱😱😱"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            />
+        <TextView
+            android:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Click here ⬇️for Sign Up"
+            android:textSize="20sp"
+            android:layout_marginTop="2dp"
+            />
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/SignUpButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image2"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</ScrollView>

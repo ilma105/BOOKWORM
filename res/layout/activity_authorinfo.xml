@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".authorinfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:visibility="gone"
+        android:layout_marginTop="14dp"
+        android:id="@+id/refresh"
+        android:src="@drawable/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.nightonke.boommenu.BoomMenuButton
+                android:layout_gravity="center"
+                android:id="@+id/boombtnID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                app:bmb_normalColor="#922b21" />
+</LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:src="@drawable/ilma"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    />
+                <TextView
+
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ilma Hossain"
+                    android:textSize="30dp"
+                    android:textColor="@color/design_default_color_primary"
+                    />
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Studies at Khulna University of Engineering and Technology"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/design_default_color_primary"
+                    />
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bangladesh"
+                    android:textSize="30dp"
+
+                    android:textColor="@color/design_default_color_primary"
+                    />
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                   <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Email:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textIsSelectable="true"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ilmahossain1998@gmail.com"
+                        />
+                </LinearLayout>
+                    <ImageButton
+                        android:id="@+id/send"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/mail"
+                        android:layout_marginBottom="10dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:src="@drawable/megh2"
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    />
+                <TextView
+
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lamia Hossain"
+                    android:textSize="30dp"
+                    android:textColor="#3B9C9C"
+                    />
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Studies at Khulna University of Engineering and Technology"
+                    android:textSize="12dp"
+
+                    android:textColor="#3B9C9C"
+                    />
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bangladesh"
+                    android:textSize="30dp"
+
+                    android:textColor="#3B9C9C"
+                    />
+                <LinearLayout
+
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/emailmegh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="lamiahossain2017@gmail.com"
+                        />
+                </LinearLayout>
+                    <ImageButton
+                        android:id="@+id/sendmegh"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/mail"
+                        />
+                </LinearLayout>
+           <LinearLayout
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:textColor="#808000"
+                   android:layout_marginLeft="40dp"
+                   android:textSize="17dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="for any suggestion or question email please"
+                   />
+               <ImageView
+                   android:src="@drawable/smile"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

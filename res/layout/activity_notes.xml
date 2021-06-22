@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesActivity"
+    android:orientation="horizontal"
+
+    >
+
+    <ImageButton
+        android:id="@+id/notesIconID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/writing" />
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/boombtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        app:bmb_normalColor="@color/purple_500"
+        />
+
+    <ListView
+        android:layout_below="@+id/boombtnID"
+        android:id="@+id/NoteListViewID"
+        android:divider="#2F344E"
+        android:listSelector="#C7BADF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp"
+        android:layout_margin="1sp"
+        />
+
+</RelativeLayout>

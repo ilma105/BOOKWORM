@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    tools:context=".ContributionActivity">
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+<EditText
+    android:hint="BOOK NAME"
+    android:id="@+id/booknameedit"
+
+  android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     />
+    <EditText
+        android:hint="Author Name"
+        android:id="@+id/authornameedit"
+       android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:hint="Type"
+        android:id="@+id/typeedit"
+       android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:hint="Rate"
+        android:id="@+id/rateedit"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+            <EditText
+                android:textColor="@android:color/holo_orange_light"
+                android:textStyle="bold"
+                android:background="@null"
+                android:focusable="false"
+                android:text="Book Pdf 📖"
+                android:id="@+id/uploadbookpdf"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/saveContributionID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horizontalScroller"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/eye"
+                android:text="SAVE"
+                app:backgroundTint="?attr/colorError" />
+
+            <Button
+
+                android:id="@+id/loadcontri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/horizontalScroller"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttoncontri"
+                android:text="LOAD😎"
+
+                app:backgroundTint="?android:attr/textColorHighlight" />
+
+
+
+
+        </LinearLayout>
+
+</LinearLayout>

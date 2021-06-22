@@ -1,0 +1,2200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/icon"
+        android:src="@drawable/story"
+        android:layout_centerInParent="true"
+        />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/homeIconID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/img" />
+            <DatePicker
+
+                android:layout_marginLeft="@dimen/default_bmb_buttonRightMargin"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:datePickerMode="calendar"
+
+                />
+            <com.nightonke.boommenu.BoomMenuButton
+                android:layout_marginLeft="@dimen/default_bmb_buttonRightMargin"
+                android:id="@+id/boombtnID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bmb_normalColor="@color/purple_500" />
+
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:id="@+id/recommendedtext"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Recommended for you"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#5b8da7" />
+                    <ImageButton
+
+                        android:id="@+id/recommendedbtnID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="325dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:id="@+id/recomlinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageButton
+                            android:background="@drawable/rhombus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                        <ImageButton
+                            android:background="@drawable/rhombus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                        <ImageButton
+                            android:background="@drawable/rhombus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                        <ImageButton
+                            android:background="@drawable/rhombus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                        <ImageButton
+                            android:background="@drawable/rhombus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🧐Choose below  To find out the book genres"
+                        android:layout_gravity="center"
+                        />
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <CheckBox
+                            android:id="@+id/checkselecttype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🧐English"
+                            android:layoutDirection="rtl"
+                            />
+                        <CheckBox
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/checkselecttypebangla"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🧐বাংলা"
+                            android:layoutDirection="rtl"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SELECT YOUR FAVOURITE TYPE☺️☺️"
+                        />
+                    <CheckBox
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/dramacheckbox"
+                        android:text="DRAMA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/fictioncheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:text="POETRY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/romanticcheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:text="ROMANTIC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/actioncheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="ACTION"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/mysterycheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="MYSTERY"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/histprycheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:text="HISTORY"
+                        />
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/comedycheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:text="COMEDY"
+                        />
+                    <CheckBox
+                        android:id="@+id/thrillercheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="THRILLER"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/horrorcheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="HORROR"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/fantasycheckbox"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="FANTASY"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layoutbangla"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="আপনার পছন্দসই প্রকারটি নির্বাচন করুন☺️"
+                        />
+                    <CheckBox
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/somogroedit"
+                        android:text="সমগ্র"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/kobitaedit"
+                        android:layout_marginLeft="20dp"
+                        android:text="কবিতা"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/goyendaedit"
+                        android:layout_marginLeft="20dp"
+                        android:text="গোয়েন্দা"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:id="@+id/boigganikedit"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:text="বৈজ্ঞানিক কল্পকাহিনী"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/dramarelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/dramatext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DRAMA"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#42e316" />
+
+                    <ImageButton
+                        android:id="@+id/dramabutton"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/dramatext"
+                        android:layout_marginLeft="325dp"
+                        android:layout_marginTop="8dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/dramalinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/help"
+                                android:src="@drawable/thehelp"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Help"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.46"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/bookthief"
+                                android:src="@drawable/bookthief"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Book Thief"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.38"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/splendidsun"
+                                android:src="@drawable/suns"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="A Thousand Splendid Suns"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.38"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/kite"
+                                android:src="@drawable/kite"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Kite Runner"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.31"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/fictionrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/fictiontext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="POETRY"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#c9b71d" />
+                    <ImageButton
+                        android:id="@+id/poetbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="325dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/fictionlinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/duino"
+                                android:src="@drawable/duino"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Duino Elegies"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.43"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/rainer"
+                                android:src="@drawable/rainerm"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Selected Poetry of Rainer Maria Rilke"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.39"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/four"
+                                android:src="@drawable/fourquaters"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Four Quartets "
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.38"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/silewalk"
+                                android:src="@drawable/sidewalkends"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Where the Sidewalk Ends"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.30"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/romanticrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/romantictext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ROMANTIC"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#C70039" />
+                    <ImageButton
+                        android:id="@+id/romanticbutton"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="325dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/romanticlinear"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/redem"
+                                android:src="@drawable/redem"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Redeeming Love"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.5"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageButton
+                                android:id="@+id/edenbrake"
+                                android:src="@drawable/hungergames"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Hunger Games"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.32"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/hungerg"
+                                android:src="@drawable/paradise"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Paradise"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.31"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/paradise"
+                                android:src="@drawable/wind"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Gone with the Wind"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.30"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/actionrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/actiontext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ACTION"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#2874a6"/>
+                    <ImageButton
+                        android:id="@+id/actionbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="325dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/actionlinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/alche"
+                                android:src="@drawable/academia"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="My Hero Academia, Vol. 1"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.50"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/ender"
+                                android:src="@drawable/ender"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Ender's Game"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.30"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/catching"
+                                android:src="@drawable/catching"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Catching Fire"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.29"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/broken"
+                                android:src="@drawable/crow"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Scarecrow"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.23"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/mysteryrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/mysterytext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MYSTERY"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#9b59b6" />
+                    <ImageButton
+                        android:id="@+id/mysterybutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="325dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/mysterylinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/costories"
+                                android:src="@drawable/the_silent_patient"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Silent Patient"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+                                android:id="@+id/godfather"
+                                android:src="@drawable/completepoems"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Complete Stories and Poems"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.37"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/seasons"
+                                android:src="@drawable/godfather"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Godfather"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.36"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/shadow"
+                                android:src="@drawable/seasons"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Different Seasons"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.34"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/historyrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/historytext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#E9967A" />
+                    <ImageButton
+                        android:id="@+id/historybutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/historylinear"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/the_twentieth_wife"
+                                android:src="@drawable/the_nightingale"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Nightingle"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/the_nightingale"
+                                android:src="@drawable/all_the_light_we_cannot_see"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="All the light We Cannot See"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.6"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/cloudsplitter"
+                                android:src="@drawable/the_other_boleyn_girl"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Other Boleyn Girl"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.6"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageButton
+                                android:id="@+id/all_the_light_we_cannot_see"
+                                android:src="@drawable/the_book_of_negroes"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Book of Negroes"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.6"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/comedyrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/comedytext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Humor and Comedy"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#48c9b0" />
+                    <ImageButton
+                        android:id="@+id/comedybutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/comedylinear"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/hyperbole_and_a_half"
+                                android:src="@drawable/hyperbole_and_a_half"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Hyperbole and a Half"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.8"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/good_omens"
+                                android:src="@drawable/good_omens"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Good Omens"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/catch22"
+                                android:src="@drawable/borncrime"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Born A Crime"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.5"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/threemenboat"
+                                android:src="@drawable/three_men_in_a_boat"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Three Men in a Boat"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.5"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/thrillerrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/thrillertext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thriller"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#95a5a6" />
+                    <ImageButton
+                        android:id="@+id/thrillerbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/thrillerlinear"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/misery"
+                                android:src="@drawable/misery"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Misery"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.9"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/bird_box"
+                                android:src="@drawable/bird_box"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Bird Box"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.8"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/the_silent_patient"
+                                android:src="@drawable/the_silent_patient"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Silent Patient"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/angels_and_demons"
+                                android:src="@drawable/angels_and_demons"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Angels and Demons"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/fantasyrelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/fantasytext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FANTASY"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#922b21"/>
+                    <ImageButton
+                        android:id="@+id/fantasybutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/fantasylinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/the_last_unicorn"
+                                android:src="@drawable/the_silmarillion"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Silmarllion"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.8"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/the_silmarillion"
+                                android:src="@drawable/the_belgariad"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Belgariad"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.8"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/the_belgariad"
+                                android:src="@drawable/the_lord_of_the_rings"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Lord Of the Rings"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/howls_moving_castle"
+                                android:src="@drawable/the_night_circus"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Night Circus"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/horrorelative"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/horrortext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HORROR"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black" />
+                    <ImageButton
+                        android:id="@+id/horrorbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_alignParentRight="true"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/horrorlinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/birdbox"
+                                android:src="@drawable/bird_box"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Bird Box"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.8"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/the_exorcist"
+                                android:src="@drawable/the_exorcist"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="The Exorcist"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.8"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/interview_with_the_vampire"
+                                android:src="@drawable/interview_with_the_vampire"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="Interview with the Vampire"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/it"
+                                android:src="@drawable/it"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="It"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="Rating: 4.7"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/somgrorel"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/somtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সমগ্র"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#42e316" />
+
+                    <ImageButton
+                        android:id="@+id/sombutton"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/somtext"
+                        android:layout_marginLeft="325dp"
+                        android:layout_marginTop="8dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/somogrolinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:src="@drawable/muktijuddho"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="মুক্তিযুদ্ধের উপন্যাসসমগ্র"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৫.০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+
+                                android:src="@drawable/misir_ali_1"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="মিসির আলি অমনিবাস-১"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.৬৯"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/humayan_science_1"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="সায়েন্স ফিকশান সমগ্র ১ম খণ্ড"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.২২"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/bhraman_samagra"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="ভ্রমণসমগ্র"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.৬২"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/kobitarel"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/kobitatext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="কবিতা"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#16B3E3" />
+
+                    <ImageButton
+                        android:id="@+id/kobitabutton"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/kobitatext"
+                        android:layout_marginLeft="325dp"
+                        android:layout_marginTop="8dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/kobitalinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:src="@drawable/kobor"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+
+                            <TextView
+                                android:text="কবর"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.৭১"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+
+                                android:src="@drawable/abol_tabol"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="আবল তাবোল"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং:  ৪.৭০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/birangona"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="বীরাঙ্গনা"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.৫৭"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/banalata_sen"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="বনলতা সেন"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.৫০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <RelativeLayout
+                    android:id="@+id/goyenda1"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/goyendatext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="গোয়েন্দা"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#800E06" />
+
+                    <ImageButton
+                        android:id="@+id/goyendabutton"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/goyendatext"
+                        android:layout_marginLeft="325dp"
+                        android:layout_marginTop="8dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/goyandalinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:src="@drawable/ghatok_rupak_saha"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+
+                            <TextView
+                                android:text="ঘাতক"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.৪৬"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+
+                                android:src="@drawable/agantuk"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="আগন্তুক"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং:  ৪.৪০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/goyenda_uponnash_swapan_kumar"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="২০টি গোয়েন্দা উপন্যাস"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.২০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/polatoker_shondhane"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="পলাতকের সন্ধানে"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.০০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <RelativeLayout
+                    android:id="@+id/boiganikrel"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/boiganiktext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="বৈজ্ঞানিক কল্পকাহিনী"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#D892E4" />
+
+                    <ImageButton
+                        android:id="@+id/boiganikbutton"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/img2"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/boiganiktext"
+                        android:layout_marginLeft="325dp"
+                        android:layout_marginTop="8dp"
+                        />
+                </RelativeLayout>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/boiganiklinear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:src="@drawable/koyantam"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+
+                            <TextView
+                                android:text="কোয়ান্টাম মেকানিক্স"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.৩৫"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+
+                            <ImageView
+
+                                android:src="@drawable/niurone_onuronon"
+
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="নিউরনে অনুরণন"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং:  ৪.৩৪"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/niurone_abaro_onuronon"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="নিউরনে  আবারো অনুরণন"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৪.০০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+
+                                android:src="@drawable/bisshoyer_indrojal"
+                                android:layout_marginLeft="7dp"
+                                android:layout_width="200dp"
+                                android:layout_height="320dp"
+                                />
+                            <TextView
+                                android:text="বিস্ময়ের ইন্দ্রজাল"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                            <TextView
+                                android:text="রেটিং: ৩.২০"
+                                android:textStyle="bold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
