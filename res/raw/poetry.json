@@ -1,0 +1,141 @@
+[{
+	"bookname": "Name: Duino Elegies",
+	"author": "Author Name: Rainer Maria Rilke",
+	"description": "sUMMARY: Together, the Duino Elegies are described as a metamorphosis of Rilke's 'ontological torment' and an 'impassioned monologue about coming to terms with human existence' discussing themes of the limitations and insufficiency of the human condition and fractured human consciousness ...",
+	"rating": "Rating: 4.43",
+	"cover": "drawable/image2.png"
+},
+	{
+		"bookname": "Name: The Selected Poetry of Rainer Maria Rilke",
+		"author": "Author Name:  Rainer Maria Rilke",
+		"description": "sUMMARY: The influence and popularity of Rilke’s poetry in America have never been greater than they are today, more than fifty years after his death. Rilke is unquestionably the most significant and compelling poet of romantic transformation, of spiritual quest, that the twentieth century has known. His poems of ecstatic identification with the world exert a seemingly endless fascination for contemporary readers.",
+		"rating": "Rating: 4.39",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Four Quartets",
+		"author": "Author Name:  T.S. Eliot",
+		"description": "sUMMARY: Four Quartets are four interlinked meditations with the common theme being man's relationship with time, the universe, and the divine.",
+		"rating": "Rating: 4.38",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Where the Sidewalk Ends",
+		"author": "Author Name:  Shel Silverstein",
+		"description": "sUMMARY: This classic poetry collection, which is both outrageously funny and profound, has been the most beloved of Shel Silverstein's poetry books for generations. Where the sidewalk ends, Shel Silverstein's world begins. There you'll meet a boy who. ... There you'll meet a boy who turns into a TV set and a girl who eats a whale.",
+		"rating": "Rating: 4.30",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Crush",
+		"author": "Author Name:  Richard Siken",
+		"description": "sUMMARY: Crush Takes place a few months after the ending of Crave. Grace is back, but she doesn't remember what had happened to her. Now, she needs to know what happened, and what she is, so she can save those she loves",
+		"rating": "Rating: 4.28",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Les Fleurs du Mal",
+		"author": "Author Name:  Charles Baudelaire",
+		"description": "sUMMARY: Presents the first American translation of the complete text of Baudelaire's 1857 masterwork and includes the complete original French texts for easy comparison.",
+		"rating": "Rating: 4.24",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Poetry of Robert Frost",
+		"author": "Author Name: Robert Frost",
+		"description": "sUMMARY: The only comprehensive gathering of Frost's published poetry, this affordable volume offers the entire contents of his eleven books of verse, from A Boy's Will (1913) to In the Clearing (1962). Frost scholar Lathem, who was also a close friend of the four-time Pulitzer Prize-winner, scrupulously annotated the 350-plus poems in this collection, which has been the standard edition of Frost's work since it first appeared in 1969.",
+		"rating": "Rating: 4.23",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Prophet",
+		"author": "Author Name:  Kahlil Gibran",
+		"description": "sUMMARY: A series of short essays on love, giving, pain, law, friendship, children, and more. You'll gain insight into the importance of doing work you love, the relationship between joy and sorrow, the purpose of friendship, and the origins of pain.",
+		"rating": "Rating: 4,22",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Ariel",
+		"author": "Author Name:  Sylvia Plath",
+		"description": "sUMMARY: 'Ariel' depicts a woman riding her horse in the countryside, at the very break of dawn. It details the ecstasy and personal transformation that occurs through the experience. The poem begins with complete immobility in the darkness, while the rider waits on the horse.",
+		"rating": "Rating: 4.21",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Milk and honey",
+		"author": "Author Name: Rupi Kaur",
+		"description": "sUMMARY: Rupi Kaur's milk and honey is a collection of prose and poetry that explores themes of silence, abuse, womanhood, family, connections and personal power. Kaur divides the work into four sections--hurting, loving, breaking, and healing--that mirror the poet's growth.",
+		"rating": "Rating: 4.2",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Sun and Her Flowers",
+		"author": "Author Name:  Rupi Kaur",
+		"description": "sUMMARY: A vibrant and transcendent journey about growth and healing. Ancestry and honoring one's roots. Expatriation and rising up to find a home within yourself. Divided into five chapters and illustrated by kaur, the sun and her flowers is a journey of wilting, falling, rooting, rising, and blooming.",
+		"rating": "Rating: 4.2",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Collected Poems",
+		"author": "Author Name:  Sylvia Plath",
+		"description": "sUMMARY: The aim of the present complete edition, which contains a numbered sequence of the 224 poems written after 1956 together with a further 50 poems chosen from her pre-1956 work, is to bring Sylvia Plath's poetry together in one volume, including the various uncollected and unpublished pieces, and to set everything in as true a chronological order as is possible, so that the whole progress and achievement of this unusual poet will become accessible to readers. ",
+		"rating": "Rating: 4.19",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Lunch Poems",
+		"author": "Author Name:  Frank O'Hara",
+		"description": "sUMMARY: Important poems by the late New York poet published in The New American Poetry, Evergreen Review, Floating Bear and stranger places.",
+		"rating": "Rating: 4.19",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Leaves of Grass",
+		"author": "Author Name: Walt Whitman",
+		"description": "sUMMARY: Leaves of Grass is a poetry collection by American poet Walt Whitman (1819–1892), each poem of which is loosely connected and represents the celebration of his philosophy of life and humanity.",
+		"rating": "Rating: 4.10",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Waste Land",
+		"author": "Author Name:  T.S. Eliot",
+		"description": "sUMMARY: The text of Eliot's 1922 masterpiece is accompanied by thorough explanatory annotations as well as by Eliot's own knotty notes, some of which require annotation themselves.",
+		"rating": "Rating: 4.10",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Tennyson's Poetry",
+		"author": "Author Name:  Alfred Tennyson",
+		"description": "sUMMARY: This volume offers one of the most comprehensive surveys of Tennyson's poetry available for the serious student.",
+		"rating": "Rating: 4.07",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Inferno",
+		"author": "Author Name:  Dante Alighieri",
+		"description": "sUMMARY: Of the great poets, Dante is one of the most elusive and therefore one of the most difficult to adequately render into English verse. In the Inferno, Dante not only judges sin but strives to understand it so that the reader can as well. With this major new translation, Anthony Esolen has succeeded brilliantly in marrying sense with sound, poetry with meaning, capturing both the poem’s line-by-line vigor and its allegorically and philosophically exacting structure, yielding an Inferno that will be as popular with general readers as with teachers and students.",
+		"rating": "Rating: 4.00",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Cantos",
+		"author": "Author Name:  Ezra Pound",
+		"description": "sUMMARY: Delmore Schwartz said about The Cantos, 'They are one of the touchstones of modern poetry.' William Carlos Williams said, '[Pound] discloses history by its odor, by the feel of it—in the words; fuses it with the words, present and past, to MAKE his Cantos. Make them.'",
+		"rating": "Rating: 3.93",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Odyssey",
+		"author": "Author Name: Homer",
+		"description": "sUMMARY: The Odyssey is Homer's epic of Odysseus' 10-year struggle to return home after the Trojan War. While Odysseus battles mystical creatures and faces the wrath of the gods, his wife Penelope and his son Telemachus stave off suitors vying for Penelope's hand and Ithaca's throne long enough for Odysseus to return.",
+		"rating": "Rating: 3.8",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Merchant of Venice",
+		"author": "Author Name:   William Shakespeare",
+		"description": "sUMMARY: In this lively comedy of love and money in sixteenth-century Venice, Bassanio wants to impress the wealthy heiress Portia but lacks the necessary funds. He turns to his merchant friend, Antonio, who is forced to borrow from Shylock, a Jewish moneylender. When Antonio's business falters, repayment becomes impossible--and by the terms of the loan agreement, Shylock is able to demand a pound of Antonio's flesh. Portia cleverly intervenes, and all ends well (except of course for Shylock).",
+		"rating": "Rating: 3.80",
+		"cover": "drawable/image2.png"
+	}
+]

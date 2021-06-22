@@ -1,0 +1,122 @@
+[{
+	"bookname": "Name: The Help",
+	"author": "Author Name: Kathryn Stockett ",
+	"description": "Description: he Help, Kathryn Stockett's debut novel, tells the story of black maids working in white Southern homes in the early 1960s in Jackson, Mississippi, and of Miss Eugenia 'Skeeter' Phelan, a 22-year-old graduate from Ole Miss, who returns to her family's cotton plantation, Longleaf, to find that her beloved maid ",
+	"rating": "Rating: 4.46",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: The Book Thief",
+	"author": "Author Name: Markus Zusak",
+	"description": "Description: The Book Thief tells the story of Liesel, a little girl who is taken to a new home because her mother can't afford to take care of her. The story is told by Death, who becomes a character you come to respect and even feel sorry for by the end.",
+	"rating": "Rating: 4.38",
+	"cover": "https://m.media-amazon.com/images/I/51tiK-eB3JL.jpg"
+},{
+	"bookname": "Name: A Thousand Splendid Suns",
+	"author": "Author Name: Khaled Hosseini",
+	"description": "Description: Mariam, a young girl, lives in a small shack with her mother, Nana, outside of the city of Herat in Afghanistan. Nana had worked as a housemaid for the wealthy cinema owner Jalil, Mariam's father, but after she became pregnant, Jalil cast her out to the shack",
+	"rating": "Rating: 4.38",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: The Kite Runner",
+	"author": "Author Name: Khaled Hosseini",
+	"description": "Description: The Kite Runner is the story of Amir, a Sunni Muslim, who struggles to find his place in the world because of the aftereffects and fallout from a series of traumatic childhood events.",
+	"rating": "Rating: 4.31",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: To Kill a Mockingbird",
+	"author": "Author Name: Harper Lee",
+	"description": "Description: To Kill a Mockingbird is a novel by Harper Lee. Although it was written in 1960 it is set in the mid-1930s in the small town of Maycomb, Alabama. It is narrated by Scout Finch, a six-year-old tomboy who lives with her lawyer father Atticus and her ten-year-old brother Jem.",
+	"rating": "Rating: 4.28",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: Big Little Lies",
+	"author": "Author Name: Liane Moriarty",
+	"description": "Description: Synopsis. Jane, a single mother, is on her way to Pirriwee Public School in Sydney's Northern Beaches, where her son Ziggy is starting kindergarten. On the way, she meets Madeline, another mother with a daughter of the same age. Madeline's friend Celeste is also sending her twin sons, Max and Josh, to school.",
+	"rating": "Rating:  4.28",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: Beartown",
+	"author": "Author Name: Fredrik Backman ",
+	"description": "Description: The story follows the events leading up to the rape of a 15-year-old girl by the star junior hockey player, and the consequences for the victim, the players, their families, friends, and the community which has a long-standing reputation as a hockey town.",
+	"rating": "Rating: 4.25",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: The Fault in Our Stars",
+	"author": "Author Name: John Green",
+	"description": "Description: The Fault in Our Stars is a novel which tells the story of Hazel Grace Lancaster, a 16 year old girl who has had cancer for three years, and Augustus 'Gus' Waters, a 17 year old boy who's now in remission, and once had a tumour in his leg.",
+	"rating": "Rating: 4.20",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: Little Fires Everywhere",
+	"author": "Author Name: Celeste Ng",
+	"description": "Description: Set in Shaker Heights, Ohio, Little Fires Everywhere tells the story of Elena Richardson, a woman who thrives on structure and rules, and her family.",
+	"rating": "Rating: 4.10",
+	"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+},{
+	"bookname": "Name: Gone Girl",
+	"author": "Author Name: Gillian Flynn",
+	"description": "Description: Nick Dunne is the main character of Gone Girl, a popular book written by Gillian Flynn. On the day of his fifth wedding anniversary, Nick Dunne returns to his home in North Carthage, Missouri only to find his wife Amy missing. Presents have already been wrapped and reservations have already been made.",
+	"rating": "Rating: 4.08",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: My Sister's Keeper",
+	"author": "Author Name: Jodi Picoult",
+	"description": "Description:  My Sister's Keeper follows the story of 13-year-old Anna Fitzgerald as she sues her parents, Brian and Sara, for medical emancipation. Anna was conceived as an allogeneic donor for her sister, Kate, who suffers from acute promyelocytic leukemia (APL).",
+	"rating": "Rating: 4.08",
+	"cover": "https://m.media-amazon.com/images/I/51tiK-eB3JL.jpg"
+},{
+	"bookname": "Name: Hamlet",
+	"author": "Author Name:  William Shakespeare",
+	"description": "Description: The ghost of the King of Denmark tells his son Hamlet to avenge his murder by killing the new king, Hamlet's uncle. Hamlet feigns madness, contemplates life and death, and seeks revenge. His uncle, fearing for his life, also devises plots to kill Hamlet.",
+	"rating": "Rating: 4.03",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: The Great Gatsby",
+	"author": "Author Name:F. Scott Fitzgerald",
+	"description": "Description: Scott Fitzgerald, published in 1925 by Charles Scribner's Sons. Set in Jazz Age New York, the novel tells the tragic story of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+	"rating": "Rating: 3.93",
+	"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+},{
+	"bookname": "Name: Life Of Pi",
+	"author": "Author Name: Yann Martel",
+	"description": "Description: Yann Martel's Life of Pi is the story of a young man who survives a harrowing shipwreck and months in a lifeboat with a large Bengal tiger named Richard Parker. The beginning of the novel covers Pi's childhood and youth.",
+	"rating": "Rating: 3.92",
+	"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+},{
+	"bookname": "Name: Macbeth",
+	"author": "Author Name: William Shakespeare",
+	"description": "Description: Three witches tell the Scottish general Macbeth that he will be King of Scotland. Encouraged by his wife, Macbeth kills the king, becomes the new king, and kills more people out of paranoia. Civil war erupts to overthrow Macbeth, resulting in more death.",
+	"rating": "Rating: 3.91",
+	"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+},{
+	"bookname": "Name: The Alchemist",
+	"author": "Author Name: Paulo Coelho",
+	"description": "Description: The Alchemist follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be prophetic, he asks a Gypsy fortune teller in the nearby town about its meaning. The woman interprets the dream as a prophecy telling the boy that he will discover a treasure at the Egyptian pyramids.",
+	"rating": "Rating: 3.88",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: Normal People",
+	"author": "Author Name: Sally Rooney",
+	"description": "Description: The novel follows the complex friendship and relationship between two teenagers, Connell and Marianne, who both attend the same secondary school in County Sligo, Ireland and, later, Trinity College Dublin (TCD). It is set during the post-2008 Irish economic downturn.",
+	"rating": "Rating:  3.86",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: Romeo and Juliet",
+	"author": "Author Name: William Shakespeare",
+	"description": "Description:  Romeo and Juliet Summary. An age-old vendetta between two powerful families erupts into bloodshed. A group of masked Montagues risk further conflict by gatecrashing a Capulet party. A young lovesick Romeo Montague falls instantly in love with Juliet Capulet, who is due to marry her father's choice, the County Paris.",
+	"rating": "Rating: 3.75",
+	"cover": "drawable/image2.png"
+},{
+	"bookname": "Name: Othello",
+	"author": "Author Name: William Shakespeare",
+	"description": "Description: The story of an African general in the Venetian army who is tricked into suspecting his wife of adultery, Othello is a tragedy of sexual jealousy. First performed around 1604, the play is also a pioneering exploration of racial prejudice. Read a character analysis of Othello, plot summary, and important quotes.",
+	"rating": "Rating: 3.7",
+	"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+},{
+	"bookname": "Name: The Tempest",
+	"author": "Author Name: William Shakespeare",
+	"description": "Description: The Tempest is a play about magic, betrayal, love and forgiveness. It is set on an island somewhere near Italy where Prospero, the one-time Duke of Milan, and his beautiful daughter, Miranda, live with a sprite called Ariel and a strange wildman called Caliban.",
+	"rating": "Rating: 3.6",
+	"cover": "drawable/image2.png"
+}
+]

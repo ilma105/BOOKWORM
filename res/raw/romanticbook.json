@@ -1,0 +1,140 @@
+[{
+	"bookname": "Name: Redeeming Love",
+	"author": "Author Name: Francine Rivers",
+	"description": "Description: Redeeming Love is a historical romance novel by Francine Rivers set in the 1850s Gold Rush in California. The story is inspired by the Book of Hosea from the Bible, and its central theme is the redeeming love of God towards sinners.",
+	"rating": "Rating: 4.5",
+	"cover": "drawable/image2.png"
+},
+	{
+		"bookname": "Name: The Hunger Games",
+		"author": "Author Name: Suzanne Collins",
+		"description": "Description: The Hunger Games is a 2008 dystopian novel by the American writer Suzanne Collins. It is written in the voice of 16-year-old Katniss Everdeen, who lives in the future, post-apocalyptic nation of Panem in North America. The Capitol, a highly advanced metropolis, exercises political control over the rest of the nation.",
+		"rating": "Rating: 4.32",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Paradise ",
+		"author": "Author Name: Toni Morrison",
+		"description": "Description: Paradise is a novel about the downfall of a perceived utopia in an all-black town called Ruby, which was named for the last person to have died there.",
+		"rating": "Rating: 4.31",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Gone with the Wind",
+		"author": "Author Name: MarGaret Mitchell",
+		"description": "Description: Scarlett O'Hara, the beautiful, spoiled daughter of a well-to-do Georgia plantation owner, must use every means at her disposal to claw her way out of the poverty she finds herself in after Sherman's March to the Sea.",
+		"rating": "Rating: 4.3",
+		"cover": "https://m.media-amazon.com/images/I/51vXH2JGV8L.jpg"
+	},
+	{
+		"bookname": "Name: Pride and Prejudice",
+		"author": "Author Name: Jane Austen",
+		"description": "Description: Pride and Prejudice follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome the titular sins of pride and prejudice in order to fall in love and marry.",
+		"rating": "Rating: 4.27",
+		"cover": "https://m.media-amazon.com/images/I/51tiK-eB3JL.jpg"
+	},
+	{
+		"bookname": "Name: Me Before You",
+		"author": "Author Name: Jojo Moyes",
+		"description": "Description: Me Before You tells the story of the quirky Louisa Clark, who unfortunately lost her job and is seeking a new one. This is how she crosses paths with Will Traynor, who devastatingly became paralysed after a motorcycle accident.",
+		"rating": "Rating: 4.26",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Addicted",
+		"author": "Author Name: Zane",
+		"description": "Description: From the Queen of Erotica, Addicted tells the provocative story of one married woman's struggle to deal with the fall-out of her forbidden desires.",
+		"rating": "Rating: 4.26",
+		"cover": "https://m.media-amazon.com/images/I/51tiK-eB3JL.jpg"
+	},
+	{
+		"bookname": "Name: The Bride",
+		"author": "Author Name: Julie Garwood",
+		"description": "Description: From New York Times bestselling author Julie Garwood, whose novels have enchanted millions of readers worldwide, comes a breathtakingly romantic novel about a mismatched young wife and husband who, despite their differences in background and temperament, fall inexorably in love.",
+		"rating": "Rating: 4.24",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Outlander",
+		"author": "Author Name: Diana Gabaldon",
+		"description": "Description: Published in 1991, it focuses on the Second World War-era nurse Claire Randall, who travels through time to 18th century Scotland and finds adventure and romance with the dashing Jamie Fraser. A mix of several genres, the Outlander series has elements of historical fiction, romance, adventure and fantasy.",
+		"rating": "Rating: 4.23",
+		"cover": "drawable/image2.png"
+	},
+
+	{
+		"bookname": "Name: Katherine ",
+		"author": "Author Name: Anya Seton",
+		"description": "Description: Katherine is a 1954 historical novel by American author Anya Seton. It tells the story of the historically important, 14th-century love affair in England between the eponymous Katherine Swynford and John of Gaunt, Duke of Lancaster, the third surviving son of King Edward III.",
+		"rating": "Rating: 4.17",
+		"cover": "https://images.gr-assets.com/books/1405116658l/33609.jpg"
+	},
+	{
+		"bookname": "Name: To All the Boys I've Loved Before",
+		"author": "Author Name: Jenny Han",
+		"description": "Description: To All the Boys I've Loved Before is a teen romance novel about young Lara Jean, a high school daydreamer who writes love letters to the boys she has crushes on. She never sends out the letters though, they're just for her to write so she can let out her feelings and move on from her crush.",
+		"rating": "Rating: 4.14",
+		"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+	}, {
+	"bookname": "Name: Jane Eyre ",
+	"author": "Author Name: Charlotte Bronte",
+	"description": "Description: The novel follows the story of Jane, a seemingly plain and simple girl as she battles through life's struggles. Jane has many obstacles in her life - her cruel and abusive Aunt Reed, the grim conditions at Lowood school, her love for Rochester and Rochester's marriage to Bertha.",
+	"rating": "Rating: 4.13",
+	"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+},
+	{
+		"bookname": "Name: Memoirs of a Geisha",
+		"author": "Author Name: Arthur Golden",
+		"description": "Description: Memoirs of a Geisha is a historical fiction novel by American author Arthur Golden, published in 1997. The novel, told in first person perspective, tells the story of a fictional geisha working in Kyoto, Japan, before, during and after World War II, and ends with her being relocated to New York City.",
+		"rating": "Rating: 4.12",
+		"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+	},
+	{
+		"bookname": "Name: The Notebook",
+		"author": "Author Name: Nicholas Sparks",
+		"description": "Description: The Notebook is an achingly tender story about the enduring power of love, a story of miracles that will stay with you forever. Set amid the austere beauty of coastal North Carolina in 1946, The Notebook begins with the story of Noah Calhoun, a rural Southerner returned home from World War II.",
+		"rating": "Rating: 4.11",
+		"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+	}, {
+	"bookname": "Name: To All the Boys: P.S. I Still Love You",
+	"author": "Author Name: Jenny Han",
+	"description": "Description:  As her relationship with Peter continues to grow, Lara Jean reunites with another recipient of one of her old love letters.",
+	"rating": "Rating: 4.1",
+	"cover": "drawable/image2.png"
+},
+	{
+		"bookname": "Name: Fangirl ",
+		"author": "Author Name: Rainbow Rowell",
+		"description": "Description: Fangirl is a story of two twin sisters, Wren and Cath, who have grown up without a mother and with a very busy father. Cath is an introvert and very happy to live in her own internet and book world. She admires and loves her sister, who also plays the role of her best friend",
+		"rating": "Rating: 4.04",
+		"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+	},
+	{
+		"bookname": "Name: Norwegian Wood",
+		"author": "Author Name: Haruki Murakami",
+		"description": "Description: Norwegian Wood is a 1987 novel by Japanese author Haruki Murakami. The novel is a nostalgic story of loss and burgeoning sexuality. It is told from the first-person perspective of Toru Watanabe, who looks back on his days as a college student living in Tokyo.",
+		"rating": "Rating: 4.03",
+		"cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/The_Notebook_Cover.jpg/220px-The_Notebook_Cover.jpg"
+	},
+	{
+		"bookname": "Name: Message In A Bottle",
+		"author": "Author Name: Nicholas Sparks",
+		"description": "Description: Based on a Nicholas sparks novel, 'Message in a bottle' is the story of Theresa who finds a message in a bottle along the shore. The message is from a man who deeply loved his wife and has lost her. She slowly begins to fall in love with him and embarks on a journey to know him better.",
+		"rating": "Rating: 3.96",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Great Gatsby",
+		"author": "Author Name: Scott Fitzgerald",
+		"description": "Description: Scott Fitzgerald, published in 1925 by Charles Scribner's Sons. Set in Jazz Age New York, the novel tells the tragic story of Jay Gatsby, a self-made millionaire, and his pursuit of Daisy Buchanan, a wealthy young woman whom he loved in his youth.",
+		"rating": "Rating: 3.93",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Attachments",
+		"author": "Author Name: Rainbow Rowell",
+		"description": "Description: Attachments is a story of two 20–somethings caught in the crisis of adulthood at the end of the millennium. It is tale about finding oneself and moving on. It is a novel about falling in love with the essence of a person rather than the surface. Rainbow Rowell is a columnist for the Omaha World-Herald.",
+		"rating": "Rating: 3.90",
+		"cover": "drawable/image2.png"
+	}
+]

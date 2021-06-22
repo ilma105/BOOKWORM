@@ -1,0 +1,31 @@
+[
+{
+		"bookname": "Name: My Hero Academia, Vol. 1",
+                 "author":"Author Name:  Kohei Horikoshi",
+                 "description":"sUMMARY:  A superhero-loving boy without any powers is determined to enroll in a prestigious hero academy and learn what it really means to be a hero. ... However, after the Quirkless dreamer Izuku inherits the powers of the world's best superhero, All Might, his hopes of becoming the top hero are now possible.",
+		"rating": "Rating: 4.50",
+	    "cover": "https://greatebook.club/download/my-hero-academia-vol-1-izuku-midoriya-origin-B012EM80FS-.pdf"
+},
+
+{
+		"bookname": "Name: Night Broken",
+                 "author":"Author Name:  Patricia Briggs",
+                 "description":"sUMMARY: When her mate's ex-wife storms back into their lives, Mercy knows something isn't right. Christy has the furthest thing from good intentions—she wants Adam back, and she's willing to do whatever it takes to get him, including turning the pack against Mercy.",
+		"rating": "Rating: 4.41",
+	    "cover": "//www.readingsanctuary.com/wp-content/uploads/2018/10/Ender_s_Game_-_Orson_Scott_Card.pdf"
+},
+{
+		"bookname": "Name: Ender's Game",
+                 "author":"Author Name:  Orson Scott Card",
+                 "description":"sUMMARY: When hostile aliens called the Formics attack Earth, only the legendary heroics of Mazer Rackham (Ben Kingsley) manage to attain a victory. To prepare for the next attack, Col. Hyrum Graff (Harrison Ford) and his cohorts initiate a military program to find the next Mazer. Recruit Ender Wiggin (Asa Butterfield) exhibits an unusual gift for the training, easily mastering all of the challenges thrown at him. Mazer Rackham, himself, takes Ender as a protege to prepare him for the oncoming war.",
+		"rating": "Rating: 4.30",
+	    "cover": "//spensabayalibrary.files.wordpress.com/2016/04/the-scorch-trials-james-dashner.pdf"
+},
+{
+		"bookname": "Name: Catching Fire",
+                 "author":"Author Name: Suzanne Collins",
+                 "description":"sUMMARY: After arriving safely home from their unprecedented victory in the 74th Annual Hunger Games, Katniss Everdeen (Jennifer Lawrence) and Peeta Mellark (Josh Hutcherson) discover that they must do a quick turnaround and begin a Victors Tour. As she and Peeta travel throughout the districts, Katniss senses a rebellion is stirring. However, President Snow (Donald Sutherland) proves that he is still very much in control when word comes of a cruel change in the rules for the upcoming 75th Hunger Games.",
+		"rating": "Rating: 4.29",
+	    "cover": "//spensabayalibrary.files.wordpress.com/2016/04/insurgent2.pdf"
+},
+]

@@ -1,0 +1,143 @@
+[{
+	"bookname": "Name: The Silent Patient",
+	"author": "Author Name:  Alex Michaelides",
+	"description": "sUMMARY: A mix of Hitchcockian suspense, Agatha Christie plotting, and Greek tragedy. The Silent Patient is a shocking psychological thriller of a woman's act of violence against her husband—and of the therapist obsessed with uncovering her motive. Alicia Berenson's life is seemingly perfect.",
+	"rating": "Rating: 4.7",
+	"cover": "drawable/image2.png"
+},
+	{
+		"bookname": "Name: The Complete Stories and Poems",
+		"author": "Author Name: Edgar Allan Poe",
+		"description": "sUMMARY: This single volume brings together all of Poe's stories and poems, and illuminates the diverse and multifaceted genius of one of the greatest and most influential figures in American literary history. ",
+		"rating": "Rating: 4.37",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Godfather",
+		"author": "Author Name: Mario Puzo",
+		"description": "sUMMARY: It details the story of a fictitious Sicilian Mafia family based in New York City and headed by Don Vito Corleone, who became synonymous with the Italian Mafia. The novel covers the years 1945 to 1955, and also provides the back story of Vito Corleone from early childhood to adulthood.",
+		"rating": "Rating: 4.36",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Different Seasons",
+		"author": "Author Name:  Stephen King ",
+		"description": "sUMMARY: DiFFERENT SEASONS is a collection of four Stephen King novellas: Rita Hayworth and the Shawshank Redemption, a wrongfully convicted man's quest for justice",
+		"rating": "Rating: 4.34",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Shadow of the Wind",
+		"author": "Author Name:  Carlos Ruiz Zafon",
+		"description": "sUMMARY: It is here that ten-year-old Daniel Sempere pulls a single book—The Shadow of the Wind—off of the dusty shelves to adopt as his own. With one fateful turn of a page, he begins an adventure that will unravel another man's tragedy and solve a mystery that has already taken many lives and will shape his entire future.",
+		"rating": "Rating: 4.27",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Day of the Jackal",
+		"author": "Author Name:  Frederick Forsyth",
+		"description": "sUMMARY: The Day of the Jackal (1971) is a thriller novel by English author Frederick Forsyth about a professional assassin who is contracted by the OAS which is a French dissident paramilitary organisation to kill Charles de Gaulle who was the President of France.",
+		"rating": "Rating: 4.26",
+		"cover": "drawable/image2.png"
+	},
+
+	{
+		"bookname": "Name: The Count of Monte Cristo",
+		"author": "Author Name:  Alexandre Dumas",
+		"description": "sUMMARY: Thrown in prison for a crime he has not committed, Edmond Dantes is confined to the grim fortress of If. There he learns of a great hoard of treasure hidden on the Isle of Monte Cristo and he becomes determined not only to escape; but also to unearth the treasure and use it to plot the destruction of the three men responsible for his incarceration. Dumas’ epic tale of suffering and retribution, inspired by a real-life case of wrongful imprisonment; was a huge popular success when it was first serialized in the 1840s.",
+		"rating": "Rating: 4.26",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Crime and Punishment",
+		"author": "Author Name:  Fyodor Dostoyevsky111",
+		"description": "sUMMARY: The novel is often cited as one of the supreme achievements in literature. Crime and Punishment focuses on the mental anguish and moral dilemmas of Rodion Raskolnikov, an impoverished ex-student in Saint Petersburg who formulates a plan to kill an unscrupulous pawnbroker for her money.",
+		"rating": "Rating: 4.23",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Murder on the Orient Express",
+		"author": "Author Name:  Agatha Christie",
+		"description": "sUMMARY: A lavish trip through Europe quickly unfolds into a race against time to solve a murder aboard a train. When an avalanche stops the Orient Express dead in its tracks, the world's greatest detective -- Hercule Poirot -- arrives to interrogate all passengers and search for clues before the killer can strike again.",
+		"rating": "Rating: 4.2",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Eye of the Needle",
+		"author": "Author Name:  Ken Follett",
+		"description": "sUMMARY: A ruthless German spy who goes by the name of Henry Faber (Donald Sutherland) is on his way back home from England after gathering information about the D-Day invasion for Hitler. Henry, who is actually the 'Needle,' a name that refers to his favorite method of killing, becomes stranded on Storm Island with Lucy (Kate Nelligan) and her husband, David (Christopher Cazenove). Lucy's strained relationship with her disabled husband leaves her vulnerable to Henry's charms.",
+		"rating": "Rating: 4.19",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: One Flew Over the Cuckoo's Nest",
+		"author": "Author Name: Ken Kesey",
+		"description": "sUMMARY: When Randle Patrick McMurphy (Jack Nicholson) gets transferred for evaluation from a prison farm to a mental institution, he assumes it will be a less restrictive environment. But the martinet Nurse Ratched (Louise Fletcher) runs the psychiatric ward with an iron fist, keeping her patients cowed through abuse, medication and sessions of electroconvulsive therapy. The battle of wills between the rebellious McMurphy and the inflexible Ratched soon affects all the ward's patients.",
+		"rating": "Rating: 4.19",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Zombie Room",
+		"author": "Author Name:  R.D. Ronald",
+		"description": "sUMMARY: Written by RD Ronald – The Zombie Room, RD Ronald's second novel, is a story of friendship amidst gritty environs. Mangle, Decker and Tazeem's friendship binds them together even after their release from prison. Lawful employment is difficult to find, so the trio band together and rely on small scams.",
+		"rating": "Rating: 4.17",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Mystic River",
+		"author": "Author Name:  Dennis Lehane",
+		"description": "sUMMARY:  Mystic River follows the lives of three friends who have a traumatic event. Twenty-five years later they are forced to deal with one another again when one daughter is found dead. The book won an award and was made into a movie directed by Clint Eastwood in 2002.",
+		"rating": "Rating: 4.15",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Name of the Rose",
+		"author": "Author Name: Umberto Eco",
+		"description": "sUMMARY: The Name of the Rose, Italian Il nome della rosa, novel by Italian writer Umberto Eco, published in Italian in 1980. Although the work stands on its own as a murder mystery, it is more accurately seen as a questioning of the meaning of “truth” from theological, philosophical, scholarly, and historical perspectives.",
+		"rating": "Rating: 4.13",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Girl with the Dragon Tattoo",
+		"author": "Author Name: Stieg Larsson",
+		"description": "sUMMARY: Disgraced financial reporter Mikael Blomkvist (Daniel Craig) finds a chance to redeem his honor after being hired by wealthy Swedish industrialist Henrik Vanger (Christopher Plummer) to solve the 40-year-old murder of Vanger's niece, Harriet. Vanger believes that Harriet was killed by a member of his own family. Eventually joining Blomkvist on his dangerous quest for the truth is Lisbeth Salander (Rooney Mara), an unusual but ingenious investigator whose fragile trust is not easily won.",
+		"rating": "Rating: 4.1",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Gone for Good",
+		"author": "Author Name:  Harlan Coben",
+		"description": "sUMMARY: As a boy, Will Klein had a hero: his older brother, Ken. Then, on a warm suburban night in the Kleins' affluent New Jersey neighborhood, a young woman—a girl Will had once loved—was found brutally murdered in her family's basement. The prime suspect: Ken Klein.",
+		"rating": "Rating: 4.1",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Guest List",
+		"author": "Author Name:  Lucy Foley",
+		"description": "sUMMARY: The Guest List is a slow-burn psychological thriller that focuses on establishing key characters by switching between first-person perspectives for Aoife the wedding planner, Jules the bride, Hannah the plus-one, Johnno the best man, and Olivia the bridesmaid.",
+		"rating": "Rating: 4.1",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Woman in White",
+		"author": "Author Name:  Wilkie Collins",
+		"description": "sUMMARY: Their plot is threatened by Anne Catherick, a mysterious fugitive from a mental asylum who dresses in white, resembles Laura, and knows the secret of Glyde's illegitimate birth. Through the perseverance of Hartright and Marian, Glyde and Fosco are defeated and killed, allowing Hartright to marry Laura",
+		"rating": "Rating: 3.99",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Thin Man",
+		"author": "Author Name:  Dashiell Hammett",
+		"description": "sUMMARY: The story of a retired detective who, while spending much of his time managing his wife's considerable fortune and consuming quantities of alcohol, is asked to follow the trail of a missing inventor. Although reluctant to interrupt his holiday in Manhattan, he is persuaded to investigate by his wife's craving for adventure, and together they embark upon a case that leads to the disclosure of deception and murder",
+		"rating": "Rating: 3.95",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Deception Point",
+		"author": "Author Name:  Dan Brown",
+		"description": "sUMMARY: Deception Point is Dan Brown's third novel, released in 2001. The novel centers around Rachel Sexton, a worker for the NRO (National Reconnaissance Office), who is sent by the President to the Arctic, in order to examine a meteorite found by NASA.",
+		"rating": "Rating: 3.72",
+		"cover": "drawable/image2.png"
+	}
+
+]

@@ -1,0 +1,142 @@
+[{
+	"bookname": "Name: My Hero Academia, Vol. 1",
+	"author": "Author Name:  Kohei Horikoshi",
+	"description": "sUMMARY:  A superhero-loving boy without any powers is determined to enroll in a prestigious hero academy and learn what it really means to be a hero. ... However, after the Quirkless dreamer Izuku inherits the powers of the world's best superhero, All Might, his hopes of becoming the top hero are now possible.",
+	"rating": "Rating: 4.50",
+	"cover": "drawable/image2.png"
+},
+	{
+		"bookname": "Name: Ender's Game",
+		"author": "Author Name:  Orson Scott Card",
+		"description": "sUMMARY: When hostile aliens called the Formics attack Earth, only the legendary heroics of Mazer Rackham (Ben Kingsley) manage to attain a victory. To prepare for the next attack, Col. Hyrum Graff (Harrison Ford) and his cohorts initiate a military program to find the next Mazer. Recruit Ender Wiggin (Asa Butterfield) exhibits an unusual gift for the training, easily mastering all of the challenges thrown at him. Mazer Rackham, himself, takes Ender as a protege to prepare him for the oncoming war.",
+		"rating": "Rating: 4.30",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Catching Fire",
+		"author": "Author Name: Suzanne Collins",
+		"description": "sUMMARY: After arriving safely home from their unprecedented victory in the 74th Annual Hunger Games, Katniss Everdeen (Jennifer Lawrence) and Peeta Mellark (Josh Hutcherson) discover that they must do a quick turnaround and begin a Victors Tour. As she and Peeta travel throughout the districts, Katniss senses a rebellion is stirring. However, President Snow (Donald Sutherland) proves that he is still very much in control when word comes of a cruel change in the rules for the upcoming 75th Hunger Games.",
+		"rating": "Rating: 4.29",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Scarecrow",
+		"author": "Author Name:  Matthew Reilly",
+		"description": "sUMMARY: Jack focuses on Alonzo Winslow, a 16-year-old drug dealer from the projects who has confessed to police that he brutally raped and strangled one of his crack clients. Jack convinces Alonzo's mother to cooperate with his investigation into the possibility of her son's innocence.",
+		"rating": "Rating: 4.23",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Princess Bride",
+		"author": "Author Name:  William Goldman",
+		"description": "sUMMARY: A fairy tale adventure about a beautiful young woman and her one true love. He must find her after a long separation and save her. They must battle the evils of the mythical kingdom of Florin to be reunited with each other. Based on the William Goldman novel ''The Princess Bride'' which earned its own loyal audience.",
+		"rating": "Rating: 4.2",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Without Remorse",
+		"author": "Author Name: Tom Clancy",
+		"description": "sUMMARY: The book takes place during the Viet Nam War and tells the story of John Kelly and his love for a woman caught in a nightmarish situation. After the death of his wife, Tish, John Kelly picks up a hitchhiker one day and takes her home to his island. He doesn't know of her history or that she is hooked on drugs.",
+		"rating": "Rating: 4.2",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Divergent",
+		"author": "Author Name:  Veronica Roth ",
+		"description": "sUMMARY: The novel Divergent features a post-apocalyptic version of Chicago and follows Beatrice 'Tris' Prior as she explores her identity within a society that defines its citizens by their social and personality-related affiliation with five factions, which removes the threat of anyone exercising independent will",
+		"rating": "Rating: 4.19",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Six Sacred Stones",
+		"author": "Author Name: Matthew Reilly",
+		"description": "sUMMARY: Now, to save the world, supersoldier Jack West Jr and his loyal team of adventurers must find and rebuild a legendary device known as 'the Machine'. The only clues to locating this Machine are held within the fabled Six Sacred Stones which are scattered around the globe",
+		"rating": "Rating: 4.19",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Saphirblue",
+		"author": "Author Name:  Kerstin Gier",
+		"description": "sUMMARY: Frisch verliebt in die Vergangenheit, das ist vielleicht keine gute Idee. Das zumindest findet Gwendolyn, 16 Jahre alt, frisch gebackene Zeitreisende. Schließlich haben sie und Gideon ganz andere Probleme. Zum Beispiel die Welt zu retten. Oder Menuett tanzen zu lernen. (Beides nicht wirklich einfach!)",
+		"rating": "Rating: 4.15",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Perilous Sea",
+		"author": "Author Name:  Sherry Thomas ",
+		"description": "sUMMARY: After spending the summer away from each other, Titus and Iolanthe (still disguised as Archer Fairfax) are eager to return to Eton College to resume their training to fight the Bane. Although no longer bound to Titus by a blood oath, Iolanthe is more committed than ever to fulfilling her destiny—especially with the agents of Atlantis quickly closing in.",
+		"rating": "Rating: 4.14",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: War and Peace",
+		"author": "Author Name:  Leo Tolstoy",
+		"description": "sUMMARY: In Russia's struggle with Napoleon, Tolstoy saw a tragedy that involved all mankind. Greater than a historical chronicle, War and Peace is an affirmation of life itself, `a complete picture', as a contemporary reviewer put it, `of everything in which people find their happiness and greatness, their grief and humiliation'. Tolstoy gave his personal approval to this translation, published here in a new single volume edition, which includes an introduction by Henry Gifford, and Tolstoy's important essay `Some Words about War and Peace'.",
+		"rating": "Rating: 4.12",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Winner's Crime",
+		"author": "Author Name:  Marie Rutkoski",
+		"description": "sUMMARY: Book two of the dazzling Winner's Trilogy is a fight to the death as Kestrel risks betrayal of country for love.",
+		"rating": "Rating: 4.10",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Seven Deadly Wonders",
+		"author": "Author Name:  Matthew Reilly",
+		"description": "sUMMARY: Product Description. Indiana Jones meets The Da Vinci Code in this nonstop action-packed thriller about the greatest treasure hunt of all time—a headlong race to find the seven wonders of the ancient world. An ancient secret...a team of heroes...the adventure of a lifetime.",
+		"rating": "Rating: 4.07",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The 5th Wave",
+		"author": "Author Name:  Rick Yancey",
+		"description": "sUMMARY: The novel is the first in The 5th Wave trilogy, followed by The Infinite Sea and the final book being The Last Star. The story follows 16-year-old Cassie Sullivan as she tries to survive in a world devastated by the waves of alien invasions that have decimated the Earth's population.",
+		"rating": "Rating: 4.03",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Insurgent",
+		"author": "Author Name:  Veronica Roth",
+		"description": "Description: Insurgent This movie is a sci-fiction and drama movie based on a book by Veronica Roth about a girl who is running with her boyfriend and brother from the enemy while unleashing new secrets about her family's past and her mysterious Divergence.",
+		"rating": "Rating: 4.02",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: A Clockwork Orange",
+		"author": "Author Name:  Anthony Burgess",
+		"description": "sUMMARY: A Clockwork Orange, novel by Anthony Burgess, published in 1962. Set in a dismal dystopian England, it is the first-person account of a juvenile delinquent who undergoes state-sponsored psychological rehabilitation for his aberrant behaviour.",
+		"rating": "Rating: 4.0",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Bourne Identity",
+		"author": "Author Name: Robert Ludlum",
+		"description": "sUMMARY: The Bourne Identity is a 1980 spy fiction thriller by Robert Ludlum that tells the story of Jason Bourne, a man with remarkable survival abilities who has retrograde amnesia, and must seek to discover his true identity.",
+		"rating": "Rating: 4.0",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Inca Gold",
+		"author": "Author Name: Clive Cussler",
+		"description": "sUMMARY: In 1532 a fleet of ships sails in secret to an island in the middle of an inland sea. There they hide a magnificent treasure more vast than that any Pharaoh would ever possess. Then they disappear, leaving only a great stone demon to guard their hoard.",
+		"rating": "Rating: 4.0",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: The Scorch Trials",
+		"author": "Author Name:  James Dashner",
+		"description": "sUMMARY: The second chapter of the epic 'Maze Runner' saga. Thomas (Dylan O'Brien) and his fellow Gladers face their greatest challenge yet which is searching for clues about the mysterious and powerful organization known as WCKD. Their journey takes them to the Scorch which is a desolate landscape filled with unimaginable obstacles.",
+		"rating": "Rating: 3.91",
+		"cover": "drawable/image2.png"
+	},
+	{
+		"bookname": "Name: Treasure Island",
+		"author": "Author Name: Robert Louis Stevenson",
+		"description": "sUMMARY: Robert Louis Stevenson wrote Treasure Island in 1881. It is set in the days of sailing ships and pirates and tells of the adventures of Jim Hawkins and his search for the buried treasure of an evil pirate, Captain Flint. The story begins at 'The Admiral Benbow', the inn that belongs to Jim Hawkin's parents.",
+		"rating": "Rating: 3.8",
+		"cover": "drawable/image2.png"
+	}
+
+]
